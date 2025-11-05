@@ -21,7 +21,7 @@ jobs:
         distribution: 'temurin'
 
     - name: Compile Java code
-      run: javac src/main/java/Main.java
+      run: javac src/main/java/com/serenitydemo/Main.java
 
     - name: Run OddEven program
-      run: java -cp src/main/java Main
+      run: java -cp src/main/java/com/serenitydemo Main
